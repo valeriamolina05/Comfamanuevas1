@@ -25,8 +25,8 @@ while opcion !=0:
         productos.append(producto)
 
     elif opcion==4:
-        productos=[]
-        productos.pop(1)
+        productos.pop()
+        print(producto)
 
     elif opcion==0:
         break

@@ -1,10 +1,13 @@
-multiplos=[]
+numeros=[]
+numeros=0
 
-for multiplos in range (10):
-    multiplos=int(input("INGRESE UN NUMERO: "))
+for multiplo in range (10):
+    numeros=int(input("INGRESE UN NUMERO: "))
+        
+    if multiplo % 3==0:
+        numeros=numeros+1
 
-if multiplos % 3==0:
-    print("Los numeros multiplos de 3 son: ")
-    print(multiplos)
+print("Los multiplos de 3 son: ", numeros)
+
 
 
